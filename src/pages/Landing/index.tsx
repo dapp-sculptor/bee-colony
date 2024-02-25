@@ -12,6 +12,7 @@ const Landing = () => {
   }
 
   useEffect(() => {
+    // @ts-ignore
     const bg = HexaPattern
   })
 
