@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .hexagon {
+        width: 121.24px;
+        height: 105px;
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
+        background-color: #fbfbfb;
+    }
+
+    .inner-hexagon {
+        width: 115.47px;
+        height: 100px;
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
+    }
+
+    .bee-font {
+        font-family: "Honeycomb Happiness", sans-serif;
+    }
+
+    .nav-btn-font {
+        font-family: 'Honey Jar Free Trial', sans-serif;;
+    }
+
+    .box { 
+        animation: rotating 10s infinite linear; 
+    } 
+
+    @keyframes rotating { 
+        0% { 
+            transform: rotate(0deg)  
+                  translateY(200px) rotate(0deg); 
+        } 
+
+        100% { 
+            transform: rotate(360deg)  
+                  translateY(100px) rotate(-360deg); 
+        } 
+    } 
+
+}
