@@ -1,11 +1,11 @@
-import { CustomBtn, Hexagons,  Bubbles } from "@/components";
-import { Pattern, HexaPattern } from "@/assets"
+import { CustomBtn, Hexagons, Bubbles } from "@/components";
+import { Pattern, HexaPattern } from "@/assets/images"
 import { useEffect } from "react";
 
 const Landing = () => {
-  const handleMint = () => {}
+  const handleMint = () => { }
 
-  const handleCollection = () => {}
+  const handleCollection = () => { }
 
   useEffect(() => {
     // @ts-ignore
@@ -13,21 +13,24 @@ const Landing = () => {
   })
 
   return <>
-    <div className={`w-[100vw] min-[700px]:h-[calc(100vh_-_60px)] border-t-[1px] flex flex-row bg-[linear-gradient(to_bottom,#301764,#4610be)] relative overflow-hidden`}>
-      <div className={`opacity-20 bg-[url('/src/assets/hexapattern.png')] w-[100%] h-[855px] min-[700px]:h-[calc(100vh_-_61px)] absolute z-30} `} ></div>
-      <img src={Pattern} className="absolute bottom-0  z-20" />
-      <div className="flex max-[700px]:flex-col w-[100%]">
-        <div className="min-[700px]:w-[50%] min-[700px]:p-[90px_60px] text-[#ffde81] z-50 max-[700px]:flex flex-col items-center py-[90px]">
-          <div className="text-[15px]">Discover</div>
-          <div className="text-[30px] py-[20px]">Collect and Sell</div>
-          <div className="text-[30px] py-[20px]">Hype Bees</div>
-          <div className="text-[10px]">Welcome to our colony bee village</div>
-          <div className="flex gap-[20px] mt-[30px]">
-            <CustomBtn name='Mint' feature={handleMint} />
-            <CustomBtn name='Collection' feature={handleCollection} />
+    <div className={`w-[100vw] min-[900px]:h-[calc(100vh_-_60px)] border-t-[1px] flex flex-row bg-[linear-gradient(to_bottom,#301764,#4610be)] relative overflow-hidden`}>
+      <div className={`opacity-20 bg-[url('/src/assets/hexapattern.png')] w-[100%] h-[855px] min-[900px]:h-[calc(100vh_-_61px)] absolute z-30} `} ></div>
+      <img src={Pattern} className="absolute bottom-0 w-[100vw] z-20" />
+      <div className="flex max-[900px]:flex-col w-[100%]">
+        <div className="min-[900px]:w-[50%] text-[#ffde81] z-50 flex flex-col items-center py-[90px]">
+          <div>
+
+            <div className="text-[15px]">Discover</div>
+            <div className="text-[36px] py-[20px] font-net-lulo-clean-ttf font-mon">Collect and Sell</div>
+            <div className="text-[30px] py-[20px] ">Hype Bees</div>
+            <div className="text-[10px]">Lorem ipsum dolor sit amet consectetuer. Semper vel fermentum in lacus sem ut sed</div>
+            <div className="flex gap-[20px] mt-[30px]">
+              <CustomBtn name='Mint' feature={handleMint} />
+              <CustomBtn name='Collection' feature={handleCollection} />
+            </div>
           </div>
         </div>
-        <div className="min-[700px]:w-[50%] w-[100%] z-50">
+        <div className="min-[900px]:w-[50%] w-[100%] z-50">
           <Hexagons />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { Hexagon } from '..'
-import { Bee } from '@/assets'
+import { Bee } from '@/assets/images'
 
 const Hexagons = () => {
     return (

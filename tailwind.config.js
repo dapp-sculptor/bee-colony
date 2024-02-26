@@ -13,6 +13,11 @@ export default {
         ready: 'ready 1s infinite',
         play: 'playing 1s infinite',
         fire: 'fire 2s infinite'
+      },
+      fontFamily: {
+        "net-lulo-clean-ttf":"Net Lulo Clean TTF",
+        "Montserrat":"Montserrat",
+        "honey":"Honeycomb Happiness"
       }
     }
   },

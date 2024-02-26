@@ -8,7 +8,7 @@ type props = {
 
 const navButton = ({ name, link }: props) => {
     return (
-        <Link to={link} className='nav-btn-font text-[#f1f1f2] text-[15px] px-[10px] rounded-md transition-all hover:text-[#201c2c] hover:bg-[#ffde81]'>{name}</Link>
+        <Link to={link} className='font-Montserrat text-[#f1f1f2] text-[15px] px-[10px] rounded-md transition-all hover:text-[#201c2c] hover:bg-[#ffde81]'>{name}</Link>
     )
 }
 

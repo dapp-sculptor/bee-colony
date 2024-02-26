@@ -2,11 +2,13 @@
 @import url('https://fonts.cdnfonts.com/css/honey-jar-free-trial');
 
 @keyframes fire {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: rotate(-30deg);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
-  
+
   50% {
     transform: rotate(0deg);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
@@ -14,7 +16,9 @@
 }
 
 @keyframes ready {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(-3%);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
@@ -26,7 +30,9 @@
 }
 
 @keyframes playing {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(105%);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
@@ -35,4 +41,16 @@
     transform: scale(95%);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
+}
+
+@font-face {
+  font-family: "Net Lulo Clean TTF";
+  src: local("Net-Lulo-Clean"),
+    url("../src/assets/font/Net-Lulo-Clean.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("../src/assets/font/Montserrat.ttf") format("truetype");
 }

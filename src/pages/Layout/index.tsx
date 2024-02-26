@@ -3,23 +3,23 @@ import { Link, Outlet } from "react-router-dom";
 import { NavBtn, WalletConnect } from "@/components";
 import { navButtonList } from "@/data/constant";
 import { useState } from "react";
-import { Hamburger } from "@/assets";
+import { Hamburger } from "@/assets/images";
 
 const Layout = () => {
   const [showModal, setShowModal] = useState<boolean>(false)
   return (
     <>
       <div className="h-[60px] w-[100vw] bg-[#201c2c] flex items-center justify-between pl-[32px]">
-        <Link to='/' className="bee-font uppercase text-[white] text-[30px] cursor-pointer transition-all hover:scale-110 hover:text-[#ffde81] max-[400px]:text-[20px]">The colony</Link>
-        <div className="flex gap-[5px] min-[700px]:gap-[20px] items-center">
-          <div className="hidden min-[700px]:flex gap-[20px]">
+        <Link to='/' className="uppercase text-[white] text-[30px] cursor-pointer transition-all hover:scale-110 hover:text-[#ffde81] max-[400px]:text-[20px] " >the hive</Link>
+        <div className="flex gap-[5px] min-[900px]:gap-[20px] items-center">
+          <div className="hidden min-[900px]:flex gap-[20px]">
             {navButtonList.map((
               value, index) => {
               return <NavBtn key={index} name={value.name} link={value.link} />
             })
             }
           </div>
-          <div className="min-[700px]:hidden">
+          <div className="min-[900px]:hidden">
             <div className={`w-[30px] h-[30px] flex justify-center items-center`} onClick={() => setShowModal(true)}>
               <img src={Hamburger}/>
             </div>
