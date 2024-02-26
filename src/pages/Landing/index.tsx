@@ -17,20 +17,19 @@ const Landing = () => {
       <div className={`opacity-20 bg-[url('/src/assets/hexapattern.png')] w-[100%] h-[855px] min-[900px]:h-[calc(100vh_-_61px)] absolute z-30} `} ></div>
       <img src={Pattern} className="absolute bottom-0 w-[100vw] z-20" />
       <div className="flex max-[900px]:flex-col w-[100%]">
-        <div className="min-[900px]:w-[50%] text-[#ffde81] z-50 flex flex-col items-center py-[90px]">
+        <div className="min-[900px]:w-[60%] text-[#ffde81] z-50 flex flex-col items-center justify-center py-[90px]">
           <div>
-
-            <div className="text-[15px]">Discover</div>
-            <div className="text-[36px] py-[20px] font-net-lulo-clean-ttf font-mon">Collect and Sell</div>
-            <div className="text-[30px] py-[20px] ">Hype Bees</div>
-            <div className="text-[10px]">Lorem ipsum dolor sit amet consectetuer. Semper vel fermentum in lacus sem ut sed</div>
+            <div className="text-[18px]">Discover</div>
+            <div className="text-[36px] pt-[20px] font-net-lulo-clean-ttf font-mon">Collect and Sell</div>
+            <div className="text-[40px] pb-[20px] ">Hype Bees</div>
+            <div className="text-[15px]">Lorem ipsum dolor sit amet consectetuer. Semper vel fermentum in lacus sem ut sed</div>
             <div className="flex gap-[20px] mt-[30px]">
               <CustomBtn name='Mint' feature={handleMint} />
               <CustomBtn name='Collection' feature={handleCollection} />
             </div>
           </div>
         </div>
-        <div className="min-[900px]:w-[50%] w-[100%] z-50">
+        <div className="min-[900px]:w-[40%] w-[100%] z-50">
           <Hexagons />
         </div>
       </div>
