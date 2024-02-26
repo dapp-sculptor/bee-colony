@@ -17,7 +17,7 @@ export default {
       fontFamily: {
         "net-lulo-clean-ttf":"Net Lulo Clean TTF",
         "Montserrat":"Montserrat",
-        "honey":"Honeycomb Happiness"
+        "nippori":"Nippori"
       }
     }
   },

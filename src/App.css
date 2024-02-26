@@ -54,3 +54,9 @@
   src: local("Montserrat"),
     url("../src/assets/font/Montserrat.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Nippori";
+  src: local("Nippori"),
+    url("../src/assets/font/Nippori.ttf") format("truetype");
+}

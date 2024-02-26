@@ -21,7 +21,7 @@ const Landing = () => {
           <div>
             <div className="text-[18px]">Discover</div>
             <div className="text-[36px] pt-[20px] font-net-lulo-clean-ttf font-mon">Collect and Sell</div>
-            <div className="text-[40px] pb-[20px] ">Hype Bees</div>
+            <div className="text-[40px] pb-[20px] font-nippori">Hype Bees</div>
             <div className="text-[15px]">Lorem ipsum dolor sit amet consectetuer. Semper vel fermentum in lacus sem ut sed</div>
             <div className="flex gap-[20px] mt-[30px]">
               <CustomBtn name='Mint' feature={handleMint} />

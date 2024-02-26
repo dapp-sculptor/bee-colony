@@ -10,7 +10,7 @@ const Layout = () => {
   return (
     <>
       <div className="h-[60px] w-[100vw] bg-[#201c2c] flex items-center justify-between pl-[32px]">
-        <Link to='/' className="uppercase text-[white] text-[30px] cursor-pointer transition-all hover:scale-110 hover:text-[#ffde81] max-[400px]:text-[20px] " >the hive</Link>
+        <Link to='/' className="uppercase text-[white] text-[30px] cursor-pointer transition-all hover:scale-110 hover:text-[#ffde81] max-[400px]:text-[20px] font-nippori" >the hive</Link>
         <div className="flex gap-[5px] min-[900px]:gap-[20px] items-center">
           <div className="hidden min-[900px]:flex gap-[20px]">
             {navButtonList.map((
