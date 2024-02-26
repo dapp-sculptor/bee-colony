@@ -37,7 +37,7 @@
 
         100% { 
             transform: rotate(360deg)  
-                  translateY(100px) rotate(-360deg); 
+                  translateY(200px) rotate(-360deg); 
         } 
     } 
 
