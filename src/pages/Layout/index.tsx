@@ -9,10 +9,11 @@ const Layout = () => {
   const [showModal, setShowModal] = useState<boolean>(false)
   return (
     <>
-      <div className="h-[60px] w-[100vw] bg-[#201c2c] flex items-center justify-between pl-[32px]">
-        <Link to='/' className="uppercase text-[white] text-[30px] cursor-pointer transition-all hover:scale-110 hover:text-[#ffde81] max-[400px]:text-[20px] font-nippori" >the hive</Link>
-        <div className="flex gap-[5px] min-[900px]:gap-[20px] items-center">
-          <div className="hidden min-[900px]:flex gap-[20px]">
+      <div className="h-[10vh] w-[100vw] bg-[#201c2c] flex items-center justify-between px-[5vh]">
+        <Link to='/' className="uppercase text-[white] text-[5vh] cursor-pointer hover:scale-110 hover:text-[white] font-nippori" >the hive</Link>
+        {/* <div className="flex gap-[5px] min-[900px]:gap-[20px] items-center"> */}
+        <div className="flex gap-[1vh]  items-center">
+          <div className="hidden min-[900px]:flex gap-[3vh]">
             {navButtonList.map((
               value, index) => {
               return <NavBtn key={index} name={value.name} link={value.link} />
