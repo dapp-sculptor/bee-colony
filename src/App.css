@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/honeycomb-happiness');
-@import url('https://fonts.cdnfonts.com/css/honey-jar-free-trial');
+@import url('https://db.onlinewebfonts.com/c/164a60c2e090248befbcf32fdd5af386?family=Lulo+Clean+One+Bold');
+@import url('https://db.onlinewebfonts.com/c/33d8796f3057e0a2042961cd52cb93f8?family=Fenomen+Sans+Book');
 
 @keyframes fire {
 
@@ -44,12 +44,6 @@
 }
 
 @font-face {
-  font-family: "Net Lulo Clean TTF";
-  src: local("Net-Lulo-Clean"),
-    url("../src/assets/font/Net-Lulo-Clean.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
     url("../src/assets/font/Montserrat.ttf") format("truetype");
@@ -59,4 +53,24 @@
   font-family: "Nippori";
   src: local("Nippori"),
     url("../src/assets/font/Nippori.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lulo Clean One Bold";
+  src: url("https://db.onlinewebfonts.com/t/164a60c2e090248befbcf32fdd5af386.eot");
+  src: url("https://db.onlinewebfonts.com/t/164a60c2e090248befbcf32fdd5af386.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/164a60c2e090248befbcf32fdd5af386.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/164a60c2e090248befbcf32fdd5af386.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/164a60c2e090248befbcf32fdd5af386.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/164a60c2e090248befbcf32fdd5af386.svg#Lulo Clean One Bold")format("svg");
+}
+
+@font-face {
+  font-family: "Fenomen Sans Book";
+  src: url("https://db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.eot");
+  src: url("https://db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/33d8796f3057e0a2042961cd52cb93f8.svg#Fenomen Sans Book")format("svg");
 }

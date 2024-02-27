@@ -19,10 +19,10 @@ const Landing = () => {
       <div className="flex max-[900px]:flex-col w-[100%]">
         <div className="min-[900px]:w-[60%] text-[#ffde81] z-50 flex flex-col items-center justify-center py-[90px]">
           <div>
-            <div className="text-[18px]">Discover</div>
-            <div className="text-[36px] pt-[20px] font-net-lulo-clean-ttf ">Collect and Sell</div>
+            <div className="text-[25px]">Discover</div>
+            <div className="text-[36px] pt-[20px] font-fenomen-sans-book ">Collect and Sell</div>
             <div className="text-[40px] pb-[20px] font-nippori">Hype Bees</div>
-            <div className="text-[15px]">Lorem ipsum dolor sit amet consectetuer. Semper vel fermentum in lacus sem ut sed</div>
+            <div className="text-[20px] w-[370px] break-words">Lorem ipsum dolor sit amet consectetuer. Semper vel fermentum in lacus sem ut sed</div>
             <div className="flex gap-[20px] mt-[30px]">
               <CustomBtn name='Mint' feature={handleMint} />
               <CustomBtn name='Collection' feature={handleCollection} />

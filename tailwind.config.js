@@ -15,7 +15,7 @@ export default {
         fire: 'fire 2s infinite'
       },
       fontFamily: {
-        "net-lulo-clean-ttf":"Net Lulo Clean TTF",
+        "fenomen-sans-book":"Fenomen Sans Book",
         "Montserrat":"Montserrat",
         "nippori":"Nippori"
       }
