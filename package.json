@@ -13,7 +13,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@uidotdev/usehooks": "^2.4.1",
     "axios": "^1.6.7",
     "eslint-config-prettier": "^9.0.0",
     "pre-commit": "^1.2.2",

@@ -3,26 +3,17 @@
 @tailwind utilities;
 
 @layer utilities {
-
     .hexagon {
         width: 10vw;
         height: 8.66vw;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
         background-color: #fbfbfb;
     }
-
+    
     .inner-hexagon {
         width: 9.6vw;
         height: 8.3136vw;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
-    }
-
-    .bee-font {
-        font-family: "Honeycomb Happiness", sans-serif;
-    }
-
-    .nav-btn-font {
-        font-family: 'Honey Jar Free Trial', sans-serif;;
     }
 
     .box { 

@@ -2,8 +2,6 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About, Collection, Contact, Layout, Roadmap, Landing } from '@/pages';
-import "@/assets/font/Net-Lulo-Clean.ttf"
-import "@/assets/font/Montserrat.ttf"
 
 const App: React.FC = () => {
 

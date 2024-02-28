@@ -1,6 +1,3 @@
-@import url('https://db.onlinewebfonts.com/c/164a60c2e090248befbcf32fdd5af386?family=Lulo+Clean+One+Bold');
-@import url('https://db.onlinewebfonts.com/c/33d8796f3057e0a2042961cd52cb93f8?family=Fenomen+Sans+Book');
-
 @keyframes fire {
 
   0%,
@@ -46,13 +43,13 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
-    url("../src/assets/font/Montserrat.ttf") format("truetype");
+    url("/font/Montserrat.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nippori";
   src: local("Nippori"),
-    url("../src/assets/font/Nippori.ttf") format("truetype");
+    url("/font/Nippori.ttf") format("truetype");
 }
 
 @font-face {
