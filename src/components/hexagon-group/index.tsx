@@ -4,7 +4,7 @@ import { Bee1, Bee2, Bee3, Bee4, Bee5, Bee6, Bee7 } from '@/assets/images'
 
 const Hexagons = () => {
     return (
-        <div className='relative h-[calc(100%)] min-h-[400px] w-[100%]'>
+        <div className='relative w-[100%] h-[100%]'>
             <Hexagon xpos={-50} ypos={-50} img={Bee1}/>
             <Hexagon xpos={35} ypos={7} img={Bee2}/>
             <Hexagon xpos={-50} ypos={64} img={Bee3}/>
