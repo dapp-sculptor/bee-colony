@@ -22,7 +22,7 @@ export default {
       screens: {
         '1cs': '700px',
         '2cs': '1200px',
-        '3cs': '1800px',
+        '3cs': '1920px',
         '4cs': '2400px',
       }
     }

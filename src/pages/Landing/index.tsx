@@ -6,8 +6,8 @@ const Landing = () => {
   const handleCollection = () => { }
 
   return <>
-    <div className={`w-[100vw] border-t-[1px] flex flex-row bg-[linear-gradient(to_bottom,#301764,#4610be)] relative overflow-hidden h-[100vh]`}>
-      <div className={`h-[100vh] w-[100%] top-0 left-0 absolute z-[50] bg-[url('/images/hexapattern.png')] opacity-20`} ></div>
+    <div className={`w-[100vw] border-t-[1px] flex flex-row bg-[linear-gradient(to_bottom,#2e185a,#4610bd)] relative overflow-hidden h-[100vh]`}>
+      <div className={`h-[100vh] w-[100%] top-0 left-0 absolute z-[50] bg-[url('/images/hexapattern.png')] opacity-[5%]`} ></div>
       <div className="top-0 left-0 absolute bg-[url('/images/path-bg.png')] bg-contain bg-no-repeat bg-bottom w-[100%] h-[100vh]"></div>
       <div className={`flex max-2cs:flex-col w-[100%] h-[1100px] max-1cs:h-[300px] max-2cs:h-[500px] max-3cs:h-[700px] max-4cs:h-[900px]`}>
         <div className="z-50 flex flex-col max-2cs:justify-center items-center pt-[200px] max-1cs:pt-[30px] max-2cs:pt-[50px] max-3cs:pt-[150px] max-4cs:pt-[150px] pl-[130px] max-1cs:pl-[calc(50vw_-130px)] max-2cs:pl-[calc(50vw_-200px)] max-3cs:pl-[150px] max-4cs:pl-[100px] w-[50%] max-2cs:w-[100%] text-[white]">
